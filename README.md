@@ -31,7 +31,7 @@ copy lib\config\app_secrets.example.dart lib\config\app_secrets.dart
 # Dosyayi duzenleyin: Supabase URL, anon key, istege bagli ESP/AI adresleri
 
 # Android — HTTP cleartext izinleri (ESP32 / AI sunucu)
-copy android\app\src\main\res\xml\network_security_config.example.xml android\app\src\main\res\xml\network_security_config.xml
+copy android\network_security_config.example.xml android\app\src\main\res\xml\network_security_config.xml
 # Kendi ESP ve AI sunucu IP adreslerinizi ekleyin
 
 # ESP32 — WiFi ve sabit IP

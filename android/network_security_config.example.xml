@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Bu dosyayi network_security_config.xml olarak kopyalayin.
+  Bu dosyayi su konuma kopyalayin:
+  android/app/src/main/res/xml/network_security_config.xml
+
   ESP32 ve AI sunucu IP adreslerinizi asagidaki domain-config bloguna ekleyin.
   network_security_config.xml GitHub'a yuklenmez.
 -->
