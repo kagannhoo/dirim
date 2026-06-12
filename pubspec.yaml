@@ -1,0 +1,46 @@
+name: dirim
+description: "Dirim - Sağlık takip uygulaması"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.5.0
+  fl_chart: ^0.66.0
+  camera: ^0.12.0+1
+  google_mlkit_face_detection: ^0.13.2
+  http: ^1.6.0
+  flutter_local_notifications: ^22.0.0
+  timezone: ^0.11.0
+  flutter_timezone: ^5.1.0
+  url_launcher: ^6.3.2
+  flutter_contacts: ^2.1.0
+  flutter_phone_direct_caller: ^2.2.1
+  permission_handler: ^12.0.3
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/dirim_logo.png
+  adaptive_icon_background: "#1E7A4C"
+  adaptive_icon_foreground: assets/images/dirim_logo.png
+  web:
+    generate: true
+    image_path: assets/images/dirim_logo.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/dirim_logo.png

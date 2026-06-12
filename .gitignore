@@ -1,0 +1,72 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Secrets & local config (GitHub'a gitmez)
+.env
+.env.*
+esp32/wifi_config.h
+**/.env
+lib/config/app_secrets.dart
+android/app/src/main/res/xml/network_security_config.xml
+
+# APK / buyuk derleme ciktilari
+*.apk
+*.aab
+
+# Rapor, MOBSF, latex — yerel calisma dosyalari
+RAPOR.md
+RAPOR.docx
+RAPOR_guncel.docx
+MOBSF_ANALIZ.md
+GITHUB_KURULUM.md
+mobsf_analiz.bat
+rapor_olustur.bat
+latex_olustur.bat
+report_assets/
+
+# Word gecici
+~$*.docx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
